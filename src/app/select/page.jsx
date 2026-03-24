@@ -1,4 +1,4 @@
-import Aside from '@/components/Aside/Aside'
+import Aside from '@/components/Aside/aside'
 import React from 'react'
 
 const page = () => {

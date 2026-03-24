@@ -1,5 +1,5 @@
 
-import Header from '@/components/Header/Header'
+import Header from '@/components/Header/header'
 import React from 'react'
 
 const page = () => {

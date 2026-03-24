@@ -1,5 +1,5 @@
-import Nav from "@/components/Nav/Nav";
-import Footer from "@/components/Footer/Footer";
+import Nav from "@/components/Nav/nav";
+import Footer from "@/components/Footer/footer";
 import ReduxProvider from "@/store/ReduxProvider"; // Providerni import qiling
 import './globals.css';
 
