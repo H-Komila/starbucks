@@ -1,12 +1,11 @@
-
-import Header from '@/components/Header/Header'
+import Aside from '@/components/Aside/Aside'
 import React from 'react'
 
 const page = () => {
   return (
     <>
     
-    <Header/>
+    <Aside/>
     
     </>
   )
