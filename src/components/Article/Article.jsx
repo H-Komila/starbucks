@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { ArrowRight, ArrowLeft, Heart } from 'lucide-react';
 import { useDispatch, useSelector } from 'react-redux';
-import { addToCart } from "../../store/cartSlice"; // Store yo'lingizni tekshiring
+import { addToCart, toggleFavorite } from '@/store/cartSlice';
 
 const products = [
   { id: 1, name: "Fast Coffee", description: "Our cafe will serve you quickly", price: 7.45, volume: "330 ml", image: "/header.png" },
