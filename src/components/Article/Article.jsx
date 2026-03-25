@@ -87,7 +87,7 @@ const Article = () => {
         <div className="relative">
           <motion.div 
             className="flex gap-8"
-            animate={{ x: `calc(-${startIndex * (100 / visibleCount)}% )` }}
+           animate={{ x: `calc(-${startIndex * (100 / visibleCount)}%)` }}
             transition={{ type: "spring", stiffness: 300, damping: 30 }}
           >
             {products.map((item) => (

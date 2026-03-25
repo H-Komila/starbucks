@@ -20,7 +20,7 @@ const WishlistPage = () => {
     { id: 1, name: "Fast Coffee", price: 7.45, image: "/header.png" },
     { id: 2, name: "Dark Roast", price: 7.55, image: "/header3.png" },
     { id: 3, name: "Cappuccino", price: 7.35, image: "/header2.png" },
-    // ... barcha mahsulotlar
+   
   ];
 
   const wishlistItems = allProducts.filter(product => favoriteIds.includes(product.id));
